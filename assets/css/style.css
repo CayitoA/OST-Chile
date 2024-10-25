@@ -320,7 +320,7 @@ background-color: none;
 }
 
 #presentacion .logo1{
-  background-image: url(/assets/img/logo-ost-1-918x193.png);
+  background-image: url(assets/img/logo-ost-1-918x193.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -330,7 +330,7 @@ background-color: none;
 }
 
 #presentacion .logo2{
-  background-image: url(/assets/img/logo_klsmartin.svg);
+  background-image: url(assets/img/logo_klsmartin.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -487,7 +487,7 @@ justify-content: center;
 
 
 #productos  .contenedor-imagen .foto1{
-    background-image: url(/assets/img/carrusel1.jpg);
+    background-image: url(../img/carrusel1.jpg);
 }
 
 #productos .imagen{
