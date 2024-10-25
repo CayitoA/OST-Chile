@@ -320,7 +320,7 @@ background-color: none;
 }
 
 #presentacion .logo1{
-  background-image: url(assets/img/logo-ost-1-918x193.png);
+  background-image: url(../img/logo-ost-1-918x193.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -330,7 +330,7 @@ background-color: none;
 }
 
 #presentacion .logo2{
-  background-image: url(assets/img/logo_klsmartin.svg);
+  background-image: url(../img/logo_klsmartin.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -718,10 +718,10 @@ height: 18rem;
   
   
   #linea1productos  .contenedor-imagen .foto1{
-      background-image: url(/assets/img/csm_LevelOne_instruments_735x370_efa8bdc60f.jpg);
+      background-image: url(../img/csm_LevelOne_instruments_735x370_efa8bdc60f.jpg);
   }
   #linea1productos  .contenedor-imagen .foto2{
-    background-image: url(/assets/img/csm_LevelOne_plates_and_meshes_735x370_01_8ed5c334df.jpg);
+    background-image: url(../img/csm_LevelOne_plates_and_meshes_735x370_01_8ed5c334df.jpg);
 }
   
   #linea1productos .imagen{
@@ -801,7 +801,7 @@ height: 18rem;
   }
 
   #catalogo .contenedor-catalogo .icono-descarga{
-  background-image: url(/assets/img/icono-descarga.svg);
+  background-image: url(../img/icono-descarga.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -912,7 +912,7 @@ background-color: none;
 }
 
 #nosotros .logo1{
-  background-image: url(/assets/img/logo-ost-1-918x193.png);
+  background-image: url(../img/logo-ost-1-918x193.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -922,7 +922,7 @@ background-color: none;
 }
 
 #nosotros .logo2{
-  background-image: url(/assets/img/logo_klsmartin.svg);
+  background-image: url(../img/logo_klsmartin.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
