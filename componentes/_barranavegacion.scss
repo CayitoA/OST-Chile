@@ -1,0 +1,35 @@
+@import '../modulos/variables' ;
+
+
+#barranavegacion {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 0;
+    background-color: red;
+    justify-content: center;
+}
+.nav-item a{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+#menu{
+    width: 90%;
+    max-width: $margin;
+    justify-content: space-between;
+    background-color:none;
+    padding:  0 40px;
+    float: right;
+}
+
+.navbarSupportedContent {
+justify-content: flex-end;
+float: right;
+justify-content: center;
+}
