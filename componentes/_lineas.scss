@@ -140,7 +140,7 @@
         padding: 15px;
     }
     .contenedor-imagen .foto1{
-        background-image: url(/assets/img/csm_LevelOne_instruments_735x370_efa8bdc60f.jpg);
+        background-image: url(../assets/img/csm_LevelOne_instruments_735x370_efa8bdc60f.jpg);
     }
     .contenedor-imagen .foto2{
       background-image: url(/assets/img/csm_LevelOne_plates_and_meshes_735x370_01_8ed5c334df.jpg);
@@ -226,6 +226,7 @@
     height: 10rem;
     display: flex;
     align-items: center;
+    padding: 0 20px;
     .contenedor-catalogo{
     margin: $margin;
     width: $width;
@@ -236,7 +237,7 @@
     }
     h2{
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     text-align: left;
     padding: 10px;

@@ -43,7 +43,7 @@
     height: 30rem;
     } 
     .contenedor-imagen .imagen2{
-        background-image: url(../assets/img/header-operacion.jpg);
+        background-image: url(assets/img/header-operacion.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -93,11 +93,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color:$background1;
-
-    .contenedor-doble{
-    margin: $margin-header;
-    background-color:none;
-    }
+    padding: 60px 0;
 
 .contenedor-presentacion{
     width: $width;

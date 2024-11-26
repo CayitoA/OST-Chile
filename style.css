@@ -115,7 +115,7 @@ footer {
   height: 30rem;
 }
 #header .contenedor-imagen .imagen2 {
-  background-image: url(../assets/img/header-operacion.jpg);
+  background-image: url(assets/img/header-operacion.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,10 +161,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #f9f8fd;
-}
-#presentacion .contenedor-doble {
-  margin: 90px 0;
-  background-color: none;
+  padding: 60px 0;
 }
 #presentacion .contenedor-presentacion {
   width: 950px;
@@ -567,7 +564,7 @@ footer {
   padding: 15px;
 }
 #linea1productos .contenedor-imagen .foto1 {
-  background-image: url(/assets/img/csm_LevelOne_instruments_735x370_efa8bdc60f.jpg);
+  background-image: url(../assets/img/csm_LevelOne_instruments_735x370_efa8bdc60f.jpg);
 }
 #linea1productos .contenedor-imagen .foto2 {
   background-image: url(/assets/img/csm_LevelOne_plates_and_meshes_735x370_01_8ed5c334df.jpg);
@@ -645,6 +642,7 @@ footer {
   height: 10rem;
   display: flex;
   align-items: center;
+  padding: 0 20px;
 }
 #catalogo .contenedor-catalogo {
   margin: 0 auto;
@@ -656,7 +654,7 @@ footer {
 }
 #catalogo h2 {
   color: white;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   text-align: left;
   padding: 10px;
