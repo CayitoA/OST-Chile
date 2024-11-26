@@ -42,7 +42,9 @@
     .contenedor-imagen .foto5{
         background-image: url(assets/img/header-instrumental.jpg);
     }
-    
+    .contenedor-imagen .foto6{
+        background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
+    }
     .imagen{
         background-repeat: no-repeat;
         background-position: center;
@@ -63,6 +65,7 @@
         display: flex;
         height: 22rem;
         align-items: center;
+        justify-content: center;
     }
      
     .body-card{

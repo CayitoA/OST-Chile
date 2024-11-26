@@ -46,6 +46,10 @@
   background-color: #e8e8e8;
   justify-content: center;
   padding: 20px;
+  background-image: url(/assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .contenedor-formulario {
@@ -54,6 +58,7 @@
   border-radius: 12px;
   padding: 20px;
   justify-content: center;
+  margin: 100px 0;
 }
 
 .titulo {
@@ -178,23 +183,24 @@ footer {
   margin-bottom: 30px;
 }
 #presentacion .contenedor-imagen {
-  display: block;
+  display: flex;
   justify-content: center;
-  background-color: none;
+  align-items: center;
+  height: 10rem;
 }
 #presentacion .logo1 {
   background-image: url(assets/img/OST_nuevo\ logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 200px;
-  height: 124px;
+  width: 150px;
+  height: 93px;
   justify-content: center;
   display: block;
   align-content: center;
 }
 #presentacion .logo2 {
-  background-image: url(assets/img/logo_klsmartin.svg);
+  background-image: url(assets/img/logo_gray.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -206,7 +212,7 @@ footer {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  height: 10rem;
+  height: 12rem;
   text-align: left;
   padding: 30px;
 }
@@ -473,6 +479,9 @@ footer {
 #headerlinea .contenedor-imagen .foto5 {
   background-image: url(assets/img/header-instrumental.jpg);
 }
+#headerlinea .contenedor-imagen .foto6 {
+  background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
+}
 #headerlinea .imagen {
   background-repeat: no-repeat;
   background-position: center;
@@ -492,6 +501,7 @@ footer {
   display: flex;
   height: 22rem;
   align-items: center;
+  justify-content: center;
 }
 #headerlinea .body-card {
   background-color: none;
@@ -666,6 +676,64 @@ footer {
   background-size: cover;
   width: 63px;
   height: 80px;
+}
+
+#nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f9f8fd;
+  padding: 60px 0;
+}
+#nosotros .contenedor-presentacion {
+  width: 950px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+#nosotros .contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+  height: 12rem;
+  align-items: center;
+}
+#nosotros .logo1 {
+  background-image: url(assets/img/OST_nuevo\ logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 93px;
+  justify-content: center;
+}
+#nosotros .contenedor-texto {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 12rem;
+  text-align: left;
+  padding: 30px;
+  justify-content: center;
+}
+#nosotros .contenedor-texto h2 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #4d4d4d;
+}
+#nosotros .contenedor-texto p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
