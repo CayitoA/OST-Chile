@@ -29,30 +29,54 @@
 <!--  barra navegación -->
 
 <!-- start nav -->
-<nav id="menu">
-    <!-- start menu -->
-    <ul class="categorias">
-     <li><a href="index.html">Inicio</a></li>
-     <li><a href="#">Líneas de Productos</a>
-    <!-- start menu desplegable -->
-     <ul>
-     <li><a href="linea1.html"> Cráneo-Maxilofacial</a></li>
-     <li><a href="linea2.html"> Neurocirugía</a></li>
-     <li><a href="linea3.html"> IPS</a></li>
-     <li><a href="linea4.html"> Traumatología Manos</a></li>
-     <li><a href="linea5.html"> Instrumental Quirúrgico</a></li>
+<nav id="barranavegacion" class="navbar bg-dark  border-bottom navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div  id="menu" class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <a class="navbar-brand logo" href="#">
+                <img src="assets/img/OST_nuevo logo_blanco.png" alt="" width="auto" height="30px">
+              </a>
+            </a>      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lineas de Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="linea1.html">Cráneo-Maxilofacial</a></li>
+              <li><a class="dropdown-item" href="linea2.html">Neurocirugía</a></li>
+              <li><a class="dropdown-item" href="linea3.html">IPS</a></li>
+              <li><a class="dropdown-item" href="linea4.html">Traumatología Manos</a></li>
+              <li><a class="dropdown-item" href="linea5.html">Instrumental Quirúrgico</a></li>
 
-     </ul>
-    <!-- end menu desplegable -->
-     </li>
-     <li><a href="ventas.html">Ventas</a></li>
-     <li><a href="nosotros.html">Acerca de Nosotros</a></li>
-     <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-    <!-- end menu -->
-    </nav>
-    <!-- end nav -->
 
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ventas.html">Ventas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Acerca de Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+       
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+</div>
+      <!-- end nav -->
 <!--  header -->
 
 <header id="header">
@@ -242,12 +266,10 @@
 
 <footer id="piedepagina">
     <div class="menu"> 
-            <div class="frase">
-                <ul>
-                <li>logo</li>
-                 </ul>
+            <div class="frase col-12  col-md-4">
+                <div class="logo"> </div>
              </div>
-             <div class="frase">
+             <div class="frase col-12 col-md-4">
             <ul>
                 <li> <i class=" fa-solid fa-location-dot"></i>Av. Tobalaba #155 oficina 904</li>
                 <li>Providencia, Santiago</li>
@@ -256,11 +278,10 @@
                 <li class="linea"><i class="icono fa-solid fa-location-dot"></i>
 
                     <i class="flecha fa-regular fa-envelope"></i>
-
-
             </ul>
              </div>
-             <div class="frase">
+
+             <div class="frase col-12 col-md-4">
             <ul>
                 <li> <i class=" fa-regular fa-envelope"></i>ostchile@gmail.com</li>
                 <li>56223342158</li>

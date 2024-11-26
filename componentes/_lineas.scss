@@ -14,8 +14,9 @@
      .header-lineaproducto{
         width: $width;
         background-color: #3c4141;
-        background-color: #a9a9a9;
+        background-color: #474747;
         background-color: $colordcards;
+        background-color: #c0c0c0;
         border-radius: $border-1;
         height: auto;
         display: flex;
@@ -34,7 +35,13 @@
     }
 
     .contenedor-imagen .foto1{
-        background-image: url(assets/img/header_implante_manos.jpg);
+        background-image: url(assets/img/csm_CMF_surgery__1920x875_07_4918feb183.jpeg);
+    }
+    .contenedor-imagen .foto2{
+        background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
+    }
+    .contenedor-imagen .foto3{
+        background-image: url(assets/img/header_IPS.jpg);
     }
     .contenedor-imagen .foto4{
         background-image: url(assets/img/header_implante_manos.jpg);

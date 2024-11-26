@@ -3,37 +3,42 @@
 }
 
 #barranavegacion {
-  font-family: "Inter", sans-serif;
   width: 100%;
-  margin: 0;
-  background-color: red;
+  height: 6rem;
   justify-content: center;
-}
-
-.nav-item a {
-  font-family: "Inter", sans-serif;
-  color: white;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 20px 0;
-  justify-content: center;
+  background-color: none;
 }
 
 #menu {
   width: 90%;
-  max-width: 0 auto;
-  justify-content: space-between;
+  height: 5rem;
   background-color: none;
-  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   float: right;
 }
 
-.navbarSupportedContent {
-  justify-content: flex-end;
-  float: right;
-  justify-content: center;
+#menu ul li {
+  display: flex;
+  background-color: none;
+}
+
+#menu .logo {
+  padding: 0 20px;
+}
+
+#menu ul a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 10px;
 }
 
 #formulario {
@@ -79,6 +84,62 @@
 
 footer {
   justify-content: end;
+}
+
+/* footer*/
+#piedepagina {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  padding: 50px 0;
+}
+
+#piedepagina .menu {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#piedepagina .logo {
+  background-image: url(assets/img/OST_nuevo\ logo_blanco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 120px;
+  height: 74px;
+  justify-content: center;
+  align-items: center;
+}
+
+#piedepagina .frase {
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a4a4a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+#piedepagina .frase li {
+  padding-bottom: 5px;
+}
+
+#piedepagina ul {
+  list-style: none;
 }
 
 #header {
@@ -204,8 +265,8 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: auto;
-  height: 200px;
+  width: 180px;
+  height: 40px;
   justify-content: center;
 }
 #presentacion .contenedor-texto {
@@ -352,7 +413,7 @@ footer {
 }
 
 #productos .contenedor-imagen .foto3 {
-  background-image: url(assets/img/header-instrumental.jpg);
+  background-image: url(assets/img/header_IPS.jpg);
 }
 
 #productos .contenedor-imagen .foto4 {
@@ -453,8 +514,9 @@ footer {
 #headerlinea .header-lineaproducto {
   width: 950px;
   background-color: #3c4141;
-  background-color: #a9a9a9;
+  background-color: #474747;
   background-color: #e8e8e8;
+  background-color: #c0c0c0;
   border-radius: 50px 20px;
   height: auto;
   display: flex;
@@ -471,7 +533,13 @@ footer {
   transition: 750ms;
 }
 #headerlinea .contenedor-imagen .foto1 {
-  background-image: url(assets/img/header_implante_manos.jpg);
+  background-image: url(assets/img/csm_CMF_surgery__1920x875_07_4918feb183.jpeg);
+}
+#headerlinea .contenedor-imagen .foto2 {
+  background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
+}
+#headerlinea .contenedor-imagen .foto3 {
+  background-image: url(assets/img/header_IPS.jpg);
 }
 #headerlinea .contenedor-imagen .foto4 {
   background-image: url(assets/img/header_implante_manos.jpg);

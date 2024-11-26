@@ -7,7 +7,7 @@
     <title>OST Chile</title>
 
     <!-- link css -->
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
 
 <!--  font awesome -->
 <!--  tipografia -->
@@ -24,39 +24,69 @@
 <!--  barra navegación -->
 
 <!-- start nav -->
-<nav id="menu">
-    <!-- start menu -->
-    <ul class="categorias">
-     <li><a href="index.html">Inicio</a></li>
-     <li><a href="#">Líneas de Productos</a>
-    <!-- start menu desplegable -->
-     <ul>
-     <li><a href="linea1.html"> Cráneo-Maxilofacial</a></li>
-     <li><a href="linea2.html"> Neurocirugía</a></li>
-     <li><a href="linea3.html"> IPS</a></li>
-     <li><a href="linea3.html"> Traumatología Manos</a></li>
-     <li><a href="linea3.html"> Instrumental Quirúrgico</a></li>
+<nav id="barranavegacion" class="navbar bg-dark  border-bottom navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div  id="menu" class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <a class="navbar-brand logo" href="#">
+                <img src="assets/img/OST_nuevo logo_blanco.png" alt="" width="auto" height="30px">
+              </a>
+            </a>      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lineas de Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="linea1.html">Cráneo-Maxilofacial</a></li>
+              <li><a class="dropdown-item" href="linea2.html">Neurocirugía</a></li>
+              <li><a class="dropdown-item" href="linea3.html">IPS</a></li>
+              <li><a class="dropdown-item" href="linea4.html">Traumatología Manos</a></li>
+              <li><a class="dropdown-item" href="linea5.html">Instrumental Quirúrgico</a></li>
 
 
-     </ul>
-    <!-- end menu desplegable -->
-     </li>
-     <li><a href="ventas.html">Ventas</a></li>
-     <li><a href="nosotros.html">Acerca de Nosotros</a></li>
-     <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-    <!-- end menu -->
-    </nav>
-    <!-- end nav -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ventas.html">Ventas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Acerca de Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+       
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+</div>
+      <!-- end nav -->
     
 <!--  header o encabezado -->
-    
+
 <header id="headerlinea">
-    <article class="contenedor-header">
-        <div class="contenedor-textos">
-            <h1 class="frase bounce">Neurocirugía</h1>
+    <div class="header-lineaproducto ">
+        <div class="contenedor-imagen col-12 col-md-7">
+            <div class="foto2 imagen"> </div>
         </div>
-    </article>
+        <div class="contenedor-texto col-12 col-md-5">
+            <div class="body-card">
+                <h5><span>Linea de Productos</span></h5>
+                <h2>Neurocirugía</h2>
+            </div>        
+        </div>
+    </div>
 </header>
 
 <main>
@@ -65,7 +95,10 @@
 
 
 
-<section id=linea1productos>
+<section id="linea1productos">
+    <div class="titulo">
+        <h1>Linea de productos <span>Neurocirugía</span></h1>
+    </div>
     <div class="contenedor-card"> 
 
         <div class="col-12 col-md-4 margen"> 
@@ -75,11 +108,11 @@
             </div>
             <div class="contenedor-texto ">
                 <div class="body-card">
-                    <h6>Línea Cráneo-Maxilofacial</h6>
+                    <h6>Línea Neurocirugía</h6>
                     <h3>Distractor Mandibular</h3>
                     <h4>Zurich II</h4>
                     <footer>
-                        <button class="btn-producto"> ver +</button>
+                        <button class="btn-producto">ver +</button>
                     </footer>
                 </div>
             </div>
@@ -92,9 +125,8 @@
                 <div class="foto2 imagen"> </div>
             </div>
             <div class="contenedor-texto">
-
                 <div class="body-card">
-                    <h6>Línea Cráneo-Maxilofacial</h6>
+                    <h6>Línea Neurocirugía</h6>
                     <h3>Distractor Maxilar</h3>
                     <h4>Distrator Liou Cleft</h4>
                     <footer>
@@ -107,16 +139,16 @@
 
         <div class="col-12 col-md-4 margen"> 
         <article class="card-lineaproducto">
-            <div class="contenedor-imagen ">
+            <div class="contenedor-imagen">
                 <div class="foto1 imagen"> </div>
             </div>
             <div class="contenedor-texto">
                 <div class="body-card">
-                    <h6>Línea Cráneo-Maxilofacial</h6>
+                    <h6>Línea Neurocirugía</h6>
                     <h3>Distractor Alveolar</h3>
                     <h4>Distrator Track</h4>
                     <footer>
-                        <button class="btn-producto"> ver +</button>
+                        <button class="btn-producto">ver +</button>
                     </footer>
                 </div>
             </div>
@@ -125,16 +157,16 @@
 
         <div class="col-12 col-md-4 margen"> 
         <article class="card-lineaproducto">
-            <div class="contenedor-imagen ">
+            <div class="contenedor-imagen">
                 <div class="foto1 imagen"> </div>
             </div>
             <div class="contenedor-texto">
                 <div class="body-card">
-                    <h6>Línea Cráneo-Maxilofacial</h6>
+                    <h6>Línea Neurocirugía</h6>
                     <h3>Distractor Palatal</h3>
                     <h4>Expansor palatal rápido </h4>
                     <footer>
-                        <button class="btn-producto"> ver +</button>
+                        <button class="btn-producto">ver +</button>
                     </footer>
                 </div>
             </div>
@@ -143,23 +175,29 @@
 
         <div class="col-12 col-md-4 margen"> 
             <article class="card-lineaproducto">
-                <div class="contenedor-imagen ">
+                <div class="contenedor-imagen">
                     <div class="foto1 imagen"> </div>
                 </div>
                 <div class="contenedor-texto">
                     <div class="body-card">
-                        <h6>Línea Cráneo-Maxilofacial</h6>
-                        <h3>Distractor Palatal</h3>
+                        <h6>Línea Neurocirugía</h6>
+                        <h3>Distractor</h3>
                         <h4>Expansor palatal rápido </h4>
-                        <footer>
+                        <footer class="alinear">
                             <button class="btn-producto"> ver +</button>
                         </footer>
                     </div>
                 </div>
             </article>
-            </div>        
+        </div>   
+        <div class="col-12 col-md-4 margen"> 
+            <article class="card-lineaproducto">
+                
+            </article>
+        </div>       
 
     </div>
+
 
 </section>
 
@@ -172,29 +210,33 @@
 
 </main>
 
+
 <footer id="piedepagina">
     <div class="menu"> 
-        <div class="frase">
+            <div class="frase col-12  col-md-4">
+                <div class="logo"> </div>
+             </div>
+             <div class="frase col-12 col-md-4">
             <ul>
-            <li>logo</li>
+                <li> <i class=" fa-solid fa-location-dot"></i>Av. Tobalaba #155 oficina 904</li>
+                <li>Providencia, Santiago</li>
+                <li>Chile</li>
+
+                <li class="linea"><i class="icono fa-solid fa-location-dot"></i>
+
+                    <i class="flecha fa-regular fa-envelope"></i>
             </ul>
-        </div>
-        <div class="frase">
+             </div>
+
+             <div class="frase col-12 col-md-4">
             <ul>
-            <li>Av. Tobalaba #155 oficina 904</li>
-            <li>Providencia, Santiago</li>
-            <li>Chile</li>
+                <li> <i class=" fa-regular fa-envelope"></i>ostchile@gmail.com</li>
+                <li>56223342158</li>
+                <li>56223343859</li>
             </ul>
-        </div>
-        <div class="frase">
-            <ul>
-            <li>ostchile@gmail.com</li>
-            <li>56223342158</li>
-            <li>56223343859</li>
-            </ul>
-        </div>
+              </div>
     </div>
-</footer>
+    </footer>
     
 </body>
 </html>
