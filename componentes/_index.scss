@@ -243,6 +243,7 @@
     h1{
     font-size: 36px;
     font-weight: 700;
+    color: $colortexto;
     }
 }
 }
@@ -273,20 +274,20 @@
 }
 
 #productos  .contenedor-imagen .foto1{
-    background-image: url(../assets/img/csm_CMF_surgery__1920x875_07_4918feb183.jpeg);
+    background-image: url(/assets/img/csm_CMF_surgery__1920x875_07_4918feb183.jpeg);
 }
 #productos  .contenedor-imagen .foto2{
-    background-image: url(../assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
+    background-image: url(/assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
 
 }
 #productos  .contenedor-imagen .foto3{
-    background-image: url(../assets/img/header-instrumental.jpg);
+    background-image: url(/assets/img/header-instrumental.jpg);
 }
 #productos  .contenedor-imagen .foto4{
-    background-image: url(../assets/img/header_implante_manos\ 2.jpg);
+    background-image: url(/assets/img/header_implante_manos\ 2.jpg);
 }
 #productos  .contenedor-imagen .foto5{
-    background-image: url(../assets/img/header-instrumental.jpg);
+    background-image: url(/assets/img/header-instrumental.jpg);
 }
 #productos .imagen{
     background-repeat: no-repeat;
@@ -319,6 +320,8 @@
     font-weight: 600;
     text-transform: uppercase;
     color: white;
+    font-family: "Inter", sans-serif;
+
 }
     .body-card h2{
     font-size: 24px;
@@ -348,6 +351,8 @@
         font-size: 12px;
         font-weight: 800;
         padding: 5px;
+        font-family: "Inter", sans-serif;
+
       }
       #productos .btn-productos:hover{
           box-shadow: $shadow2;
