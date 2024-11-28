@@ -424,6 +424,10 @@ footer {
   background-image: url(assets/img/header-instrumental.jpg);
 }
 
+#productos .contenedor-imagen .foto6 {
+  background-image: url(assets/img/header_Sterilization_container.jpeg);
+}
+
 #productos .imagen {
   background-repeat: no-repeat;
   background-position: center;
@@ -548,6 +552,9 @@ footer {
   background-image: url(assets/img/header-instrumental.jpg);
 }
 #headerlinea .contenedor-imagen .foto6 {
+  background-image: url(/assets/img/csm_Sterilization_container_systems.jpeg);
+}
+#headerlinea .contenedor-imagen .foto7 {
   background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
 }
 #headerlinea .imagen {
