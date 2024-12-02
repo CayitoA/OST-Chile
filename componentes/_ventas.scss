@@ -1,7 +1,7 @@
 @import '../modulos/variables' ;
 
 
-//seccion nosotros
+//seccion ventas
 
 #nosotros{
     display: flex;
@@ -67,4 +67,52 @@
     line-height: 25px;
     }
                 
+}
+
+//seccion ventas
+
+#formulario{
+    margin: $margin;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color:$background1;
+    background-color: #f2f2f2;
+    background-color: $colordcards;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+    .contenedor-formulario{
+        width: auto;
+        background-color:aliceblue;
+        border-radius: 12px;
+        padding: 20px;
+        justify-content: center;
+        margin: 100px 0;
+        }
+
+
+
+    .titulo{
+        font-size: 36px;
+        font-weight: 700;
+        margin: $margin-header;
+    }
+
+.casilla{
+padding: 10px 0;
+justify-content: center;
+}
+    .form-label{
+        font-size: 22px;
+        font-weight: 600;
+    }
+footer{
+    justify-content: end;
 }

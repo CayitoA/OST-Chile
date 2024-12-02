@@ -83,129 +83,6 @@
     transform: scale(1.02);
     box-shadow:$shadow2;
     }
-      
-}
-
-//seccion presentacion
-
-#presentacion{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color:$background1;
-    padding: 60px 0;
-
-.contenedor-presentacion{
-    width: $width;
-    margin: $margin;
-    background-color: #ffffff;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    }
-
-.contenedor-imagen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10rem;
-}    
-     
-.logo1{
-    background-image: url(assets/img/OST_nuevo\ logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 150px;
-    height: 93px;
-
-    justify-content: center;
-    display: block;
-    align-content: center;
-    }
-.logo2{
-    background-image: url(assets/img/logo_gray.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 180px;
-    height: 40px;
-    justify-content: center;
-    }
-          
-.contenedor-texto {
-    margin:$margin;
-    display: flex;
-    align-items: center;
-    height: 12rem;
-    text-align: left;
-    padding: 30px;
-    }
-
-.contenedor-texto p{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 25px;
-    }
-                
-}
-
-//seccion ventajas
-
-#ventajas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: $background2;
-
-.contenedor-cardventanajas{
-    margin: $margin;
-    width: $width;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;     
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 0 1px;
-    }
-    
-    .card-ventaja{
-        margin: $margin;
-        display: flex;
-        flex-wrap: wrap;
-        height: 150px;
-        border-radius:$border-2;
-        background-color: #a6b5bb;
-        box-shadow: $shadow;
-        align-content: center;
-        justify-content: center;
-       }
-    h3{
-        color: white;
-        font-weight: 700;
-        font-size: 26px;
-        display: flex;
-        justify-content: center;
-      }
-  .margen{
-      padding:10px;
-  }
-  .card-ventaja:hover{
-    transform: scale(1.02);
-    transition: all 0.3s;
-    box-shadow:$shadow2;
-    background-color:$color1;
-  }
-
 }
 
 .bounce {
@@ -274,18 +151,18 @@
     background-image: url(assets/img/csm_CMF_surgery__1920x875_07_4918feb183.jpeg);
 }
 #productos  .contenedor-imagen .foto2{
-    background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
-
-}
-#productos  .contenedor-imagen .foto3{
     background-image: url(assets/img/header_IPS.jpg);
 }
-#productos  .contenedor-imagen .foto4{
-    background-image: url(assets/img/header_implante_manos\ 2.jpg);
+#productos  .contenedor-imagen .foto3{
+    background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
 }
-#productos  .contenedor-imagen .foto5{
+#productos  .contenedor-imagen .foto4{
     background-image: url(assets/img/header-instrumental.jpg);
 }
+#productos  .contenedor-imagen .foto5{
+    background-image: url(assets/img/header_implante_manos\ 2.jpg);
+}
+
 #productos  .contenedor-imagen .foto6{
     background-image: url(assets/img/header_Sterilization_container.jpeg);
 }

@@ -41,51 +41,6 @@
   padding: 0 10px;
 }
 
-#formulario {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  background-color: #f9f8fd;
-  background-color: #f2f2f2;
-  background-color: #e8e8e8;
-  justify-content: center;
-  padding: 20px;
-  background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.contenedor-formulario {
-  width: auto;
-  background-color: aliceblue;
-  border-radius: 12px;
-  padding: 20px;
-  justify-content: center;
-  margin: 100px 0;
-}
-
-.titulo {
-  font-size: 36px;
-  font-weight: 700;
-  margin: 90px 0;
-}
-
-.casilla {
-  padding: 10px 0;
-  justify-content: center;
-}
-
-.form-label {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-footer {
-  justify-content: end;
-}
-
 /* footer*/
 #piedepagina {
   margin: 0 auto;
@@ -222,114 +177,6 @@ footer {
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3333333333);
 }
 
-#presentacion {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #f9f8fd;
-  padding: 60px 0;
-}
-#presentacion .contenedor-presentacion {
-  width: 950px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 15px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-#presentacion .contenedor-imagen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10rem;
-}
-#presentacion .logo1 {
-  background-image: url(assets/img/OST_nuevo\ logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 150px;
-  height: 93px;
-  justify-content: center;
-  display: block;
-  align-content: center;
-}
-#presentacion .logo2 {
-  background-image: url(assets/img/logo_gray.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 180px;
-  height: 40px;
-  justify-content: center;
-}
-#presentacion .contenedor-texto {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  height: 12rem;
-  text-align: left;
-  padding: 30px;
-}
-#presentacion .contenedor-texto p {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 25px;
-}
-
-#ventajas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #ffffff;
-}
-#ventajas .contenedor-cardventanajas {
-  margin: 0 auto;
-  width: 950px;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 0 1px;
-}
-#ventajas .card-ventaja {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  height: 150px;
-  border-radius: 30px 10px;
-  background-color: #a6b5bb;
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
-  align-content: center;
-  justify-content: center;
-}
-#ventajas h3 {
-  color: white;
-  font-weight: 700;
-  font-size: 26px;
-  display: flex;
-  justify-content: center;
-}
-#ventajas .margen {
-  padding: 10px;
-}
-#ventajas .card-ventaja:hover {
-  transform: scale(1.02);
-  transition: all 0.3s;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3333333333);
-  background-color: #e20303;
-}
-
 .bounce {
   animation: bounce 2s ease infinite;
 }
@@ -409,19 +256,19 @@ footer {
 }
 
 #productos .contenedor-imagen .foto2 {
-  background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
-}
-
-#productos .contenedor-imagen .foto3 {
   background-image: url(assets/img/header_IPS.jpg);
 }
 
+#productos .contenedor-imagen .foto3 {
+  background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
+}
+
 #productos .contenedor-imagen .foto4 {
-  background-image: url(assets/img/header_implante_manos\ 2.jpg);
+  background-image: url(assets/img/header-instrumental.jpg);
 }
 
 #productos .contenedor-imagen .foto5 {
-  background-image: url(assets/img/header-instrumental.jpg);
+  background-image: url(assets/img/header_implante_manos\ 2.jpg);
 }
 
 #productos .contenedor-imagen .foto6 {
@@ -540,16 +387,16 @@ footer {
   background-image: url(assets/img/csm_CMF_surgery__1920x875_07_4918feb183.jpeg);
 }
 #headerlinea .contenedor-imagen .foto2 {
-  background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
-}
-#headerlinea .contenedor-imagen .foto3 {
   background-image: url(assets/img/header_IPS.jpg);
 }
+#headerlinea .contenedor-imagen .foto3 {
+  background-image: url(assets/img/csm_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
+}
 #headerlinea .contenedor-imagen .foto4 {
-  background-image: url(assets/img/header_implante_manos.jpg);
+  background-image: url(assets/img/header-instrumental.jpg);
 }
 #headerlinea .contenedor-imagen .foto5 {
-  background-image: url(assets/img/header-instrumental.jpg);
+  background-image: url(assets/img/header_implante_manos.jpg);
 }
 #headerlinea .contenedor-imagen .foto6 {
   background-image: url(assets/img/csm_Sterilization_container_systems.jpeg);
@@ -809,6 +656,51 @@ footer {
   font-weight: 700;
   font-size: 16px;
   line-height: 25px;
+}
+
+#formulario {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #f9f8fd;
+  background-color: #f2f2f2;
+  background-color: #e8e8e8;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedor-formulario {
+  width: auto;
+  background-color: aliceblue;
+  border-radius: 12px;
+  padding: 20px;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 90px 0;
+}
+
+.casilla {
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.form-label {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+footer {
+  justify-content: end;
 }
 
 /*# sourceMappingURL=style.css.map */
