@@ -64,6 +64,7 @@
     background-color: none;
     height: 23rem;
     justify-content: center;
+    vertical-align: middle;
     }
     .frase{
     width: 400px;
@@ -71,6 +72,7 @@
     font-size: 36px;
     color:$color2;
     font-weight: 500;
+    vertical-align: middle;
     }
     .frase span{
     width: 400px;
@@ -191,6 +193,8 @@
     background-color: none;
     text-align: left;
     padding: 20px 30px;
+    position: relative;
+    display: block;
 }
 }
 
@@ -215,17 +219,18 @@
         font-weight: 600;
     }
 
-    #productos footer{
-        padding-top: 20px;
-    }
+    
     #productos    .btn-productos{
         background-color:$color1;
         border-radius: 5px;
         padding: 3px 12px;
         box-shadow: $shadow;
         border: none;
-        float: right;       
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
       }
+
       #productos    .btn-productos a {
         color: white;
         text-decoration: none;

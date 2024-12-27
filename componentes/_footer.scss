@@ -51,15 +51,30 @@
     
   }
   
-  #piedepagina .frase li{
-  padding-bottom: 5px;}
-  
   #piedepagina ul{
     list-style: none;
   }
   
 #piedepagina  ul li .icono{
+  width: 25px;
+  height: auto;
   padding-right: 10px;
   font-size: 1rem;
 }
+#piedepagina .icono2{
+  margin-left: 25px;
+}
 
+#piedepagina  ul li .icono3{
+  width: 35px;
+  height: auto;
+ 
+  font-size: 1.2rem;
+  padding: 10px 0; 
+  padding-right: 30px;
+}
+
+#piedepagina ul li{
+  align-items: center;
+  justify-items: center;
+}
