@@ -22,155 +22,205 @@
 //header linea 1
 
 #headerlinea {
-    display: flex;
-    margin: $margin;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    padding: 0 15px;
-    background-color: #ecf9fc;
+  width: auto;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-     .header-lineaproducto{
-        width: $width;
-        background-color: #3c4141;
-        background-color: #474747;
-        background-color: $colordcards;
-        background-color: #c0c0c0;
-        border-radius: $border-1;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: $margin-header;
-        box-shadow: $shadow;
-        overflow: hidden;
-    }
-    
-    .header-lineaproducto:hover{
-        transform: scale(1.02);
-        box-shadow: $shadow2;
-        transition: 750ms;
-    }
+   
 
-    .contenedor-imagen .foto1{
-        background-image: url(assets/img/header_surgery__1920x875_07_4918feb183.jpeg);
+   .foto1{
+        background-image: url(assets/img/header_surgery_3.jpeg);
     }
-    .contenedor-imagen .foto2{
-        background-image: url(assets/img/header_IPS.jpg);
+   .foto2{
+        background-image: url(assets/img/header_IPS_3.jpg);
     }
-    .contenedor-imagen .foto3{
-        background-image: url(assets/img/header_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
+    #headerlinea .foto3{
+        background-image: url(assets/img/header_Neurosurgery_3.jpeg);
     }
-    .contenedor-imagen .foto4{
+    .foto4{
         background-image: url(assets/img/header-instrumental.jpg);
     }
-    .contenedor-imagen .foto5{
-        background-image: url(assets/img/header_Hand_surgery_1920x875.jpeg);
+     .foto5{
+        background-image: url(assets/img/header_Hand_surgery_3.jpeg);
     }
-    .contenedor-imagen .foto6{
+    .foto6{
         background-image: url(assets/img/header_contenedores.jpg);
     }
-    .contenedor-imagen .foto7{
+   .foto7{
         background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
     }
     .imagen{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 22rem;
-        display: block;
-        flex-grow: 1;
-        background-clip: content-box;
-        transition: 500ms; 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     
     .imagen:hover{
         scale: 105%;
         transition: 500ms;
     }
-    .contenedor-texto {
-        margin: $margin;
-        display: flex;
-        height: 22rem;
-        align-items: center;
-        justify-content: center;
-    }
-     
-    .body-card{
-        background-color: none;
-        text-align: left;
-        padding: 20px 30px;
-    }
 
-.header-lineaproducto .contenedor-texto span{
-    background-color:$color2;
-    padding: 3px 15px;
-    border-radius: 12px 0;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: white;
-}
-    .body-card h2{
-    font-size: 26px;
-    font-weight: 700;
-    padding: 15px 0;
-    color: white;
-    color: #4d4d4d;
-    }
-    }
     
 //linea de productos
 
 #linea1productos {
     display: flex;
     flex-wrap: wrap;
-    background-color:$background1;
+    flex-direction: column;
+    background-color: #1f2124;
     justify-content: center;
     .titulo{
         margin:$margin;
         width: $width;
         height: auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 90px;
         padding: 0 15px;
             h1{
-            font-size: 34px;
+            font-size: 2rem;
             font-weight: 500;
             color: $color2;
+            color: whitesmoke;
+            margin-bottom: 50px;
             }
             h1 span{
+            font-size: 2.8rem;
             font-weight: 800;
-            color: #121212;
+            color: white;
+            padding-left: 20px;
             }
+            h4{
+              font-size: 1.8rem;
+              font-weight: 800;
+              color: white;
+              padding-bottom: 20px;
+            }
+            h5{
+              font-size: 1.2rem;
+              color: whitesmoke;
+              line-height: 1.5;
+            }
+
+            h6{
+              font-size: 1rem;
+              color: white;
+              line-height: 1.5;
+            }
+          
+        
+            .foto-placas{
+              background-image: url(assets/img/mallas.jpeg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              width: auto;
+              height: 20rem;
+              flex-grow: 1;
+              background-clip: content-box;
+              border-radius: 8px;
+            }
+
+            .foto-tornillos{
+              background-image: url(assets/img/tornillos.jpeg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              width: fit-content;
+              height: 20rem;
+              flex-grow: 1;
+              background-clip: content-box;
+              border-radius: 8px;
+            }
+
+            .frase-imagen{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              background-color: none;
+              gap: 30px;
+            }
+ }
+
+
+   
+  
+//barra sub menu
+
+    .barra-menu{
+      width: $width;
+      margin: 90px auto 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .btn-menu{
+        background-color: $color2;
+        text-align: center;
+        width: 98%;
+        height: fit-content;
+        padding: 3px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin-bottom: 5px;
+      }
+      .btn-menu:hover{
+        background-color: gray;
+      
+      }
+
+
+      .btn-menu a{
+        font-size: .9rem;
+      font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+      }
+
+
     }
     
     .contenedor-card{
-        width: $width;
+        width: auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content:  center;
+        text-align: center;
         margin:$margin-header;
     }
     .card-lineaproducto{
         margin: $margin;
+        width: $width;
         height: auto;
         background-color: snow;
         background-color: $colordcards;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         border-radius: 12px;
         box-shadow:$shadow;
         transition: all 0.3s;
         overflow: hidden;
+        margin-bottom: 1px;
     }
     .margen{
-        padding: 15px;
+        padding: 25px 15px;
     }
   
 //fotos productos craneo-maxilofacial
@@ -224,7 +274,7 @@
   background-image: url(assets/img/csm_App_distraktor_right_transparent_IPSDistraction_735x370px_02_36ebe030aa.jpeg);
 }
 .contenedor-imagen .foto-ip9{
-  background-image: url(assets/img/csm_IPS_CaseDesigner_920x480px_d71e7e089a.jpeg);
+  background-image: url(assets/img/IPS.jpg);
 }
 
 //fotos productos neurocirugia
@@ -284,7 +334,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 14rem;
+        height: 22rem;
         flex-grow: 1;
         background-clip: content-box;
         transition: 500ms; 
@@ -307,14 +357,13 @@
     .contenedor-texto {
         margin: 0;
         display: flex;
-        width: 100%;
-        height: 14rem;
+        height: 22rem;
         }
      
     .body-card{
         width: 100%;
         text-align: left;
-        padding: 15px;
+        padding: 50px 30px;
         display: block;
         position: relative;
 
@@ -335,7 +384,7 @@
      
         footer {
         justify-content: end;    
-    bottom: 40px;
+        bottom: 0px;
     
     }
     .card-lineaproducto:hover{
@@ -417,8 +466,6 @@
         background-image: url(assets/img/csm_IPS_Orthognathics_735x370_05_25b4218c3f.jpeg);
       }
   
-
-   
       #exampleModalip4 .modal-ip4 {
         background-image: url(assets/img/csm_IPS_mandible_735x370_08_9d68393986.jpeg);
       }
@@ -439,7 +486,7 @@
         background-image: url(assets/img/csm_App_distraktor_right_transparent_IPSDistraction_735x370px_02_36ebe030aa.jpeg);
       }
       #exampleModalip9 .modal-ip9 {
-        background-image: url(assets/img/csm_IPS_CaseDesigner_920x480px_d71e7e089a.jpeg);
+        background-image: url(assets/img/IPS.jpg);
       }
 
      /* modal linea3*/
