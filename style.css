@@ -1,6 +1,6 @@
 @charset "UTF-8";
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
   height: auto;
   justify-content: center;
   background-color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 #menu {
@@ -45,6 +46,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#menu ul .dropdown-item {
+  text-transform: none;
+  color: black;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* footer*/
@@ -66,61 +75,84 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
-}
-
-#piedepagina .logo {
-  background-image: url(assets/img/OST_nuevo\ logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 120px;
-  height: 74px;
-  justify-content: center;
-  align-items: center;
+  background-color: white;
 }
 
 #piedepagina .frase {
   margin: 0 auto;
-  text-decoration: none;
-  text-transform: none;
-  font-size: 12px;
-  font-weight: 600;
-  color: black;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: none;
+  height: auto;
+}
+
+#piedepagina .frase .logo {
+  margin: 0 auto;
+  background-image: url(assets/img/OST_nuevo\ logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 140px;
+  height: 87px;
+}
+
+#piedepagina .frase .titulo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  color: #1f2124;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+#piedepagina .frase .titulo a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  color: #1f2124;
+  padding-top: 20px;
+  margin: 10px 0;
+}
+
+#piedepagina .frase .link {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }
 
 #piedepagina ul {
   list-style: none;
 }
 
-#piedepagina ul li .icono {
-  width: 25px;
-  height: auto;
-  padding-right: 10px;
-  font-size: 1rem;
-}
-
-#piedepagina .icono2 {
-  margin-left: 25px;
-}
-
 #piedepagina ul li .icono3 {
-  width: 35px;
   height: auto;
-  font-size: 1.2rem;
-  padding: 10px 0;
-  padding-right: 30px;
+  font-size: 1.6rem;
+  padding: 10px 15px 10px 0;
 }
 
 #piedepagina ul li {
+  display: flex;
   align-items: center;
   justify-items: center;
+}
+
+#piedepagina .mapa {
+  margin: 0 auto;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
 }
 
 .bounce {
@@ -157,26 +189,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-#modulo .fondo1 {
-  background-image: url(assets/img/header_surgery__1920x875_07_4918feb183.jpeg);
-}
-#modulo .fondo2 {
-  background-image: url(assets/img/header_IPS.jpg);
+#modulo .fondop {
+  background-image: url(/assets/img/inicio-2025-M.jpg);
 }
 #modulo .fondo3 {
   background-image: url(assets/img/header_Neurosurgery_1920x875_03_42dc94b3c3.jpeg);
-}
-#modulo .fondo4 {
-  background-image: url(assets/img/header-instrumental.jpg);
-}
-#modulo .fondo5 {
-  background-image: url(assets/img/header_Hand_surgery_1920x875.jpeg);
-}
-#modulo .fondo6 {
-  background-image: url(assets/img/index_contenedores.jpg);
-}
-#modulo .fondop {
-  background-image: url(assets/img/csm_Sustainable_improvement_of_patient_care_735x413_02_0a4dc89c32.jpeg);
 }
 #modulo .imagenh {
   background-repeat: no-repeat;
@@ -185,20 +202,21 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-attachment: fixed;
 }
 #modulo .contenedor-texto {
   margin: 0 auto;
   display: flex;
-  height: 18rem;
+  height: 22rem;
   justify-content: center;
+  align-items: center;
 }
 #modulo .contenedor-texto .body-card {
   background-color: none;
   text-align: left;
-  padding: 20px 30px;
+  padding: 10px 20px;
   position: relative;
   display: block;
   background-color: none;
@@ -206,25 +224,33 @@ body {
   border: 0px solid #f5f5f7;
   border-radius: 10px;
   backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.05);
+  height: fit-content;
+}
+#modulo .contenedor-texto .body-card h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
 }
 #modulo .contenedor-texto span {
   background-color: #474747;
-  padding: 3px 15px;
+  padding: 4px 15px;
   border-radius: 12px 0;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #modulo .body-card h2 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 0;
   color: white;
 }
 #modulo .body-card h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: whitesmoke;
 }
@@ -236,7 +262,8 @@ body {
   border: none;
   position: absolute;
   right: 30px;
-  bottom: 30px;
+  bottom: 20px;
+  margin-top: 10px;
 }
 #modulo .btn-productos a {
   color: white;
@@ -253,6 +280,116 @@ body {
   font-weight: 800;
 }
 #modulo .flecha {
+  color: white;
+  padding-left: 10px;
+}
+
+#modulo .video-container {
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+  padding-left: 2rem;
+}
+
+#modulovideo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+}
+
+#modulovideo .contenedor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+}
+
+#video-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#modulovideo .contenedor .contenedor-texto {
+  margin: 0 auto;
+  display: flex;
+  height: 12rem;
+  justify-content: center;
+}
+#modulovideo .contenedor .contenedor-texto .body-card {
+  background-color: none;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  display: block;
+  background-color: none;
+  justify-content: right;
+  border: 0px solid #f5f5f7;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.03);
+  height: auto;
+  flex-direction: row;
+}
+#modulovideo .contenedor .contenedor-texto .body-card span {
+  background-color: #474747;
+  padding: 4px 15px;
+  border-radius: 12px 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#modulovideo .contenedor .contenedor-texto .body-card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 5px 0;
+  color: #1f2124;
+}
+#modulovideo .contenedor .contenedor-texto .body-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: justify;
+  color: #474747;
+}
+#modulovideo .contenedor .contenedor-texto .btn-productos {
+  background-color: #e20303;
+  border-radius: 5px;
+  padding: 3px 12px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
+  border: none;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+#modulovideo .contenedor .contenedor-texto .btn-productos a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+#modulovideo .contenedor .contenedor-texto .btn-productos:hover {
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3333333333);
+  background-color: #ca0000;
+  font-weight: 800;
+}
+#modulovideo .contenedor .contenedor-texto .flecha {
   color: white;
   padding-left: 10px;
 }
@@ -281,36 +418,32 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.foto1 {
+#headerlinea .foto1 {
   background-image: url(assets/img/header_surgery_3.jpeg);
 }
-
-.foto2 {
+#headerlinea .foto2 {
   background-image: url(assets/img/header_IPS_3.jpg);
 }
-
 #headerlinea .foto3 {
   background-image: url(assets/img/header_Neurosurgery_3.jpeg);
 }
-
-.foto4 {
+#headerlinea .foto4 {
   background-image: url(assets/img/header-instrumental.jpg);
 }
-
-.foto5 {
+#headerlinea .foto5 {
   background-image: url(assets/img/header_Hand_surgery_3.jpeg);
 }
-
-.foto6 {
-  background-image: url(assets/img/header_contenedores.jpg);
+#headerlinea .foto6 {
+  background-image: url(assets/img/header-contenedores.png);
 }
-
-.foto7 {
-  background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
+#headerlinea .foto7 {
+  background-image: url(assets/img/Nosotros.jpg);
 }
-
-.imagen {
+#headerlinea .foto8 {
+  background-image: url(assets/img/ventas-2025M.jpeg);
+  background-attachment: fixed;
+}
+#headerlinea .imagen {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -320,8 +453,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.imagen:hover {
+#headerlinea .imagen:hover {
   scale: 105%;
   transition: 500ms;
 }
@@ -353,7 +485,7 @@ body {
   font-size: 2.8rem;
   font-weight: 800;
   color: white;
-  padding-left: 20px;
+  padding-left: 1px;
 }
 #linea1productos .titulo h4 {
   font-size: 1.8rem;
@@ -365,11 +497,13 @@ body {
   font-size: 1.2rem;
   color: whitesmoke;
   line-height: 1.5;
+  text-align: justify;
 }
 #linea1productos .titulo h6 {
   font-size: 1rem;
   color: white;
   line-height: 1.5;
+  text-align: justify;
 }
 #linea1productos .titulo .foto-placas {
   background-image: url(assets/img/mallas.jpeg);
@@ -425,7 +559,7 @@ body {
   background-color: gray;
 }
 #linea1productos .barra-menu .btn-menu a {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -445,8 +579,7 @@ body {
   margin: 0 auto;
   width: 950px;
   height: auto;
-  background-color: snow;
-  background-color: #e8e8e8;
+  background-color: #cfcfcf;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -548,7 +681,7 @@ body {
   background-image: url(assets/img/csm_Implants_hand_HBS2_1920x_495px_54a3a88a82.jpg);
 }
 #linea1productos .contenedor-imagen .foto-co1 {
-  background-image: url(assets/img/contenedor_hermannmuller.jpg);
+  background-image: url(assets/img/HM_vercatalogo.png);
 }
 #linea1productos .contenedor-imagen {
   display: block;
@@ -755,7 +888,7 @@ body {
 
 /* modal linea6*/
 #exampleModalco1 .modal-co1 {
-  background-image: url(assets/img/contenedor_hermannmuller.jpg);
+  background-image: url(assets/img/HM_vercatalogo.png);
 }
 
 .modal-producto {
@@ -763,43 +896,11 @@ body {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   transition: 500ms;
 }
 
 /* catalogo*/
-#catalogo {
-  background-color: #e20303;
-  width: 100%;
-  height: 10rem;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-#catalogo .contenedor-catalogo {
-  margin: 0 auto;
-  width: 950px;
-  height: 5rem;
-  justify-content: space-evenly;
-  display: flex;
-  align-items: center;
-}
-#catalogo h2 {
-  color: white;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: left;
-  padding: 10px;
-}
-#catalogo .icono-descarga {
-  background-image: url(assets/img/icono-descarga.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 63px;
-  height: 80px;
-}
-
 .float-wa {
   position: fixed;
   width: 60px;
@@ -862,14 +963,22 @@ body {
   justify-content: center;
 }
 #nosotros .contenedor-texto h2 {
-  font-weight: 800;
-  font-size: 24px;
-  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1f2124;
+}
+#nosotros .contenedor-texto h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #1f2124;
+  text-align: center;
 }
 #nosotros .contenedor-texto p {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  color: #1f2124;
 }
 
 #formulario {
@@ -877,44 +986,102 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  background-color: #f9f8fd;
-  background-color: #f2f2f2;
-  background-color: #e8e8e8;
+  background-color: #cfcfcf;
   justify-content: center;
   padding: 20px;
   background-image: url(assets/img/csm_Innovation_1920x875_04_edc56db414.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .contenedor-formulario {
   width: auto;
-  background-color: aliceblue;
+  background-color: #cfcfcf;
   border-radius: 12px;
-  padding: 20px;
+  padding: 20px 40px;
   justify-content: center;
   margin: 100px 0;
 }
 
-.titulo {
-  font-size: 36px;
+#formulario .titulo {
+  font-size: 2rem;
   font-weight: 700;
-  margin: 90px 0;
+  margin: 40px 0;
+  color: #1f2124;
+  text-align: center;
 }
 
 .casilla {
-  padding: 10px 0;
+  padding: 5px 0;
   justify-content: center;
 }
 
 .form-label {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f2124;
 }
 
-footer {
-  justify-content: end;
+#formulario .btn-contacto {
+  text-align: right;
+}
+
+#formulario .btn-contacto .botonenviar {
+  background-color: #e20303;
+  border-radius: 5px;
+  padding: 3px 12px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
+  margin-top: 30px;
+}
+
+#formulario .btn-contacto .botonenviar:hover {
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3333333333);
+  background-color: #ca0000;
+}
+
+#privacidad {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #1f2124;
+  justify-content: center;
+}
+#privacidad .parrafo {
+  margin: 0 auto;
+  width: 950px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 0 15px;
+}
+#privacidad .parrafo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #474747;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+#privacidad .parrafo h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  padding-top: 20px;
+}
+#privacidad .parrafo h5 {
+  font-size: 1rem;
+  color: whitesmoke;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

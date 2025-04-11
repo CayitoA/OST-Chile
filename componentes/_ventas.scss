@@ -71,14 +71,23 @@
     }
 
     .contenedor-texto h2{
-        font-weight: 800;
-        font-size: 24px;
-        color: $colortexto;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #1f2124;
+    }
+
+    .contenedor-texto h3{
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: #1f2124;
+        text-align: center;
     }
 .contenedor-texto p{
     font-weight: 700;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    color: #1f2124;
     }
                 
 }
@@ -90,8 +99,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    background-color:$background1;
-    background-color: #f2f2f2;
+    
     background-color: $colordcards;
     justify-content: center;
     padding: 20px;
@@ -99,34 +107,105 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
   
 }
 
     .contenedor-formulario{
         width: auto;
-        background-color:aliceblue;
+        background-color: $colordcards;
         border-radius: 12px;
-        padding: 20px;
+        padding: 20px 40px;
         justify-content: center;
         margin: 100px 0;
         }
 
 
 
-    .titulo{
-        font-size: 36px;
+  #formulario  .titulo{
+        font-size: 2rem;
         font-weight: 700;
-        margin: $margin-header;
+        margin: 40px 0;
+        color: #1f2124;
+        text-align: center;
     }
 
 .casilla{
-padding: 10px 0;
+padding: 5px 0;
 justify-content: center;
 }
     .form-label{
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #1f2124;
     }
-footer{
-    justify-content: end;
+
+
+#formulario .btn-contacto{
+    text-align: right;
 }
+
+
+
+#formulario .btn-contacto .botonenviar{
+    background-color: $color1;
+    border-radius: 5px;
+    padding: 3px 12px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    box-shadow: $shadow;
+    margin-top: 30px;
+   
+    }
+
+#formulario  .btn-contacto .botonenviar:hover{
+    box-shadow: $shadow2;
+    background-color: $color3;
+    }
+
+
+    // secion privacidad
+
+
+#privacidad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #1f2124;
+    justify-content: center;
+    .parrafo{
+        margin:$margin;
+        width: $width;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        padding: 0 15px;
+            h2{
+            font-size: 2rem;
+            font-weight: 600;
+            color: $color2;
+            color: whitesmoke;
+            margin-bottom: 50px;
+            }
+           
+            h3{
+              font-size: 1.5rem;
+              font-weight: 600;
+              color: white;
+              padding-top: 20px;
+            }
+            h5{
+              font-size: 1rem;
+              color: whitesmoke;
+              line-height: 1.5;
+              text-align: justify;
+            }
+
+        }
+    }

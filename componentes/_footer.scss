@@ -2,79 +2,112 @@
 
 
 /* footer*/
+
 #piedepagina{
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 50px 0;
-  }
-  
-  #piedepagina .menu {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 90%;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #piedepagina .logo{
-      background-image: url(assets/img/OST_nuevo\ logo.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      width: 120px;
-      height: 74px;
-  
-      justify-content: center;
-      align-items: center;
-  }
-  
-  #piedepagina .frase{
-    margin: 0 auto;
-    text-decoration: none;
-    text-transform: none;
-    font-size: 12px;
-    font-weight: 600;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-    
-  }
-  
-  #piedepagina ul{
-    list-style: none;
-  }
-  
-#piedepagina  ul li .icono{
-  width: 25px;
+  margin: 0 auto;
+  width: 100%;
   height: auto;
-  padding-right: 10px;
-  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 50px 0;
 }
-#piedepagina .icono2{
-  margin-left: 25px;
+
+#piedepagina .menu {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+#piedepagina .frase{
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;    
+  background-color: none;
+  height: auto;
+}
+
+#piedepagina  .frase .logo{
+  margin: 0 auto;
+  background-image: url(assets/img/OST_nuevo\ logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 140px;
+  height: 87px;
+}
+
+
+
+#piedepagina .frase .titulo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  color: #1f2124;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+#piedepagina .frase .titulo a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  color: #1f2124;
+  padding-top: 20px;
+  margin: 10px 0;
+}
+
+#piedepagina .frase .link{
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+
+#piedepagina ul{
+  list-style: none;   
 }
 
 #piedepagina  ul li .icono3{
-  width: 35px;
   height: auto;
- 
-  font-size: 1.2rem;
-  padding: 10px 0; 
-  padding-right: 30px;
-}
+  font-size: 1.6rem;
+    padding: 10px 15px 10px 0;
 
+}
 #piedepagina ul li{
+  display: flex;
   align-items: center;
   justify-items: center;
 }
+
+#piedepagina .mapa{
+  margin: 0 auto;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
